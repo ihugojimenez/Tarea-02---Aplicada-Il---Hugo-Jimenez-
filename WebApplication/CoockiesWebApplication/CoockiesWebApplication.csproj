@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EC6C2969-B1E9-496B-9579-DC36A7C96518}</ProjectGuid>
+    <ProjectGuid>{9E910B4C-59FD-48C3-84F8-7DCBCE18DC8C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebApplication</RootNamespace>
-    <AssemblyName>WebApplication</AssemblyName>
+    <RootNamespace>CoockiesWebApplication</RootNamespace>
+    <AssemblyName>CoockiesWebApplication</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -115,76 +115,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CoockiesWebForm.aspx" />
-    <Content Include="JQueryWebForm.aspx" />
-    <Content Include="QueryStringWebForm.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
-    <Content Include="Knockout.JsWebForm" />
-    <Content Include="KnockoutWebForm.aspx" />
-    <None Include="scripts\jquery-3.1.0.intellisense.js" />
-    <Content Include="scripts\jquery-3.1.0.js" />
-    <Content Include="scripts\jquery-3.1.0.min.js" />
-    <Content Include="scripts\jquery-3.1.0.slim.js" />
-    <Content Include="scripts\jquery-3.1.0.slim.min.js" />
-    <Content Include="scripts\knockout-3.4.0.debug.js" />
-    <Content Include="scripts\knockout-3.4.0.js" />
-    <Content Include="SeSSionsWebForm.aspx" />
-    <Content Include="ToWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoockiesWebForm.aspx.cs">
-      <DependentUpon>CoockiesWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CoockiesWebForm.aspx.designer.cs">
-      <DependentUpon>CoockiesWebForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="JQueryWebForm.aspx.cs">
-      <DependentUpon>JQueryWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="JQueryWebForm.aspx.designer.cs">
-      <DependentUpon>JQueryWebForm.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="KnockoutWebForm.aspx.cs">
-      <DependentUpon>KnockoutWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="KnockoutWebForm.aspx.designer.cs">
-      <DependentUpon>KnockoutWebForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="QueryStringWebForm.aspx.cs">
-      <DependentUpon>QueryStringWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="QueryStringWebForm.aspx.designer.cs">
-      <DependentUpon>QueryStringWebForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SeSSionsWebForm.aspx.cs">
-      <DependentUpon>SeSSionsWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SeSSionsWebForm.aspx.designer.cs">
-      <DependentUpon>SeSSionsWebForm.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ToWebForm.aspx.cs">
-      <DependentUpon>ToWebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ToWebForm.aspx.designer.cs">
-      <DependentUpon>ToWebForm.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="scripts\jquery-3.1.0.slim.min.map" />
-    <Content Include="scripts\jquery-3.1.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -205,9 +147,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55477</DevelopmentServerPort>
+          <DevelopmentServerPort>61172</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55477/</IISUrl>
+          <IISUrl>http://localhost:61172/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
