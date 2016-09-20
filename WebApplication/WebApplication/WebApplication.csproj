@@ -131,6 +131,7 @@
     <Content Include="scripts\knockout-3.4.0.js" />
     <Content Include="SeSSionsWebForm.aspx" />
     <Content Include="ToWebForm.aspx" />
+    <Content Include="ValidacionesWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +177,13 @@
     </Compile>
     <Compile Include="ToWebForm.aspx.designer.cs">
       <DependentUpon>ToWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidacionesWebForm.aspx.cs">
+      <DependentUpon>ValidacionesWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidacionesWebForm.aspx.designer.cs">
+      <DependentUpon>ValidacionesWebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
