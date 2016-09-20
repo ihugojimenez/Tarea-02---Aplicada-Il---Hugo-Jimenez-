@@ -127,6 +127,7 @@
     <Content Include="scripts\jquery-3.1.0.slim.min.js" />
     <Content Include="scripts\knockout-3.4.0.debug.js" />
     <Content Include="scripts\knockout-3.4.0.js" />
+    <Content Include="SeSSionsWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,13 @@
     </Compile>
     <Compile Include="KnockoutWebForm.aspx.designer.cs">
       <DependentUpon>KnockoutWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeSSionsWebForm.aspx.cs">
+      <DependentUpon>SeSSionsWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeSSionsWebForm.aspx.designer.cs">
+      <DependentUpon>SeSSionsWebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
