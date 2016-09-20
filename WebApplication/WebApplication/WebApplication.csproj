@@ -115,14 +115,30 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BoostrapWebForm.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="CoockiesWebForm.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="JQueryWebForm.aspx" />
     <Content Include="QueryStringWebForm.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Knockout.JsWebForm" />
     <Content Include="KnockoutWebForm.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="scripts\jquery-3.1.0.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-3.1.0.js" />
     <Content Include="scripts\jquery-3.1.0.min.js" />
     <Content Include="scripts\jquery-3.1.0.slim.js" />
@@ -133,8 +149,16 @@
     <Content Include="ToWebForm.aspx" />
     <Content Include="ValidacionesWebForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Site1.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoostrapWebForm.aspx.cs">
+      <DependentUpon>BoostrapWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BoostrapWebForm.aspx.designer.cs">
+      <DependentUpon>BoostrapWebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CoockiesWebForm.aspx.cs">
       <DependentUpon>CoockiesWebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -170,6 +194,13 @@
     </Compile>
     <Compile Include="SeSSionsWebForm.aspx.designer.cs">
       <DependentUpon>SeSSionsWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="ToWebForm.aspx.cs">
       <DependentUpon>ToWebForm.aspx</DependentUpon>
